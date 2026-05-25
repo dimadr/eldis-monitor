@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "5d235a8e-848f-4d2d-817a-4ce3aea63455",
+    "code": 20556,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-9ххМх"
+  },
+  {
+    "id": "b104d803-6a98-4188-8b3c-e70008e7dd3b",
+    "code": 20535,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-ххх"
+  },
+  {
+    "id": "ef44ebab-eb60-44f8-9611-ed2864b43bf5",
+    "code": 21079,
+    "name": "\"ВЗЛЕТ ЭР\" ЛАЙТ М"
+  },
+  {
+    "id": "e91aee3f-9962-40d3-a672-f56955b06d41",
+    "code": 20660,
+    "name": "\"ВЗЛЕТ\" ИВК-ТЭР"
+  },
+  {
+    "id": "a61dd512-e122-4dd8-a304-b47605f35dd5",
+    "code": 20123,
+    "name": "7КТ «Абакан»"
+  },
+  {
+    "id": "57517488-a2d3-45d7-88be-ee2ddc733e3a",
+    "code": 21068,
+    "name": "80020_xml"
+  },
+  {
+    "id": "7d02fbef-b9b7-4761-a14b-89f91c2e8cb8",
+    "code": 21130,
+    "name": "AllCom-M.01"
+  },
+  {
+    "id": "54c7b25e-b018-4ef1-8f89-5639a0ec4943",
+    "code": 20944,
+    "name": "API Линэрго"
+  },
+  {
+    "id": "303aca3d-9a4b-4c4a-8b1e-292c3b8af74c",
+    "code": 20528,
+    "name": "AS100"
+  },
+  {
+    "id": "028fd1dd-d5ef-4b8c-a682-984e528a5140",
+    "code": 20525,
+    "name": "AS3500"
+  },
+  {
+    "id": "05ae6f4b-1827-4dea-9376-5445e576cf03",
+    "code": 21341,
+    "name": "ASW-1-K"
+  },
+  {
+    "id": "a58e87bb-cc5d-456c-8708-691dd5b126b0",
+    "code": 21397,
+    "name": "BINOM3"
+  },
+  {
+    "id": "1fd14e0b-4a90-414f-ae0f-48ef5ce2ede6",
+    "code": 20665,
+    "name": "BOSF-10"
+  },
+  {
+    "id": "fac6d0ae-0feb-4018-8242-bf0d9e33a616",
+    "code": 20881,
+    "name": "Cello 4S"
+  },
+  {
+    "id": "eec5eb52-aa17-427c-b812-f17bc561223b",
+    "code": 21180,
+    "name": "ComAp InteliSys Gas"
+  },
+  {
+    "id": "1e2df1d4-cc90-4a4b-af2d-1bf61d3cb0f4",
+    "code": 21067,
+    "name": "DB ASUTE"
+  },
+  {
+    "id": "8c009e7e-0c7c-464d-be0e-ca750dead55e",
+    "code": 20396,
+    "name": "DIO-99М 5.4"
+  },
+  {
+    "id": "555beaed-d9b5-4407-9233-20c1b7cb820e",
+    "code": 20488,
+    "name": "DS18B20"
+  },
+  {
+    "id": "29696a95-18d3-4fd6-a286-640064264680",
+    "code": 20311,
+    "name": "DYMETIC-9412M/5101/5102/9415"
+  },
+  {
+    "id": "b456ae05-cb9d-456f-ab70-43f407d4f7e6",
+    "code": 21134,
+    "name": "Eastron SDM630MCT"
+  },
+  {
+    "id": "8f12fab2-5c45-4bf3-ada2-8da577b055c2",
+    "code": 20509,
+    "name": "EL-1205"
+  },
+  {
+    "id": "efc12f2b-da81-4f10-bcf8-f335229519a9",
+    "code": 21051,
+    "name": "EL-1503"
+  },
+  {
+    "id": "02c7af96-9549-4547-b563-3ae036644a7d",
+    "code": 21351,
+    "name": "EldisOCR"
+  },
+  {
+    "id": "6020dfe5-08c2-48e7-a9e9-d68f87e299b5",
+    "code": 20348,
+    "name": "ELKORA С-30 (S-25)"
+  },
+  {
+    "id": "a072a13c-55bd-4754-ac6a-decc11ccc8b6",
+    "code": 21382,
+    "name": "ERTX_ODK"
+  },
+  {
+    "id": "aa0ccdee-01ff-49ff-a3e9-59e4bf952fd2",
+    "code": 21327,
+    "name": "Eurosens Delta"
+  },
+  {
+    "id": "e6bc7099-27cc-4be8-a165-80ec83657fa3",
+    "code": 21074,
+    "name": "Eurosens Direct"
+  },
+  {
+    "id": "4242ec1c-9f59-4974-8fe4-e389aea7a078",
+    "code": 21069,
+    "name": "FloBoss 107"
+  },
+  {
+    "id": "a7975ef7-f5a8-45f6-9d3f-bef3579d9292",
+    "code": 20658,
+    "name": "FLOWSIC500"
+  },
+  {
+    "id": "e0699895-b579-4bac-af5b-be1447d49b2e",
+    "code": 21380,
+    "name": "HITERM SET ПУТ(У/М)-1"
+  },
+  {
+    "id": "4e56ae47-253a-41d8-b891-2a295062b77c",
+    "code": 21352,
+    "name": "i-PROM.1/3"
+  },
+  {
+    "id": "489c05e1-636e-4e22-a1eb-4df6a9bfed07",
+    "code": 20036,
+    "name": "KPR-2X2"
+  },
+  {
+    "id": "b0ceb7d7-a2db-4886-bb1c-5607715d6f95",
+    "code": 20327,
+    "name": "MT200DS"
+  },
+  {
+    "id": "3e12f46f-6046-4239-b3fd-51eabe526078",
+    "code": 20549,
+    "name": "MULTICAL 603"
+  },
+  {
+    "id": "1178d903-4870-47c2-84c8-bd8ab348ad58",
+    "code": 20309,
+    "name": "MULTICAL 60X"
+  },
+  {
+    "id": "3945d9f9-e093-4d06-857e-509f5985098c",
+    "code": 20303,
+    "name": "MULTICAL 66-CDE"
+  },
+  {
+    "id": "4428b9f9-3307-4117-bb06-09489de6eb19",
+    "code": 20386,
+    "name": "MULTICAL III 66-R"
+  },
+  {
+    "id": "7dcd1469-998c-4c7c-8f29-e77590b76e65",
+    "code": 20546,
+    "name": "MULTICAL III 66-В"
+  },
+  {
+    "id": "4da5b345-c29d-438a-8f8a-8faa4eb3735b",
+    "code": 20950,
+    "name": "Orionmeter LA-IP-I2C"
+  },
+  {
+    "id": "0cb89a7f-7feb-4690-949f-6c90fa16caf4",
+    "code": 20524,
+    "name": "Prime works NET"
+  },
+  {
+    "id": "d795cf4a-3a30-475e-a865-9a3245d454dd",
+    "code": 21176,
+    "name": "PROMODEM"
+  },
+  {
+    "id": "b31cdb01-ac65-413d-85e5-1ea88768c0a3",
+    "code": 20545,
+    "name": "RTU (Alfard)"
+  },
+  {
+    "id": "42651917-979d-4f8c-9d66-7686555b09a6",
+    "code": 20554,
+    "name": "RTU-325S"
+  },
+  {
+    "id": "86095f26-190f-4af9-9ffd-ef8dd4551cb2",
+    "code": 20293,
+    "name": "SA-94/1"
+  },
+  {
+    "id": "56b7a00d-ac6a-4b36-86bf-412e9d8b6f0c",
+    "code": 20292,
+    "name": "SA-94/2"
+  },
+  {
+    "id": "aca06b98-850b-4bf3-ad0f-58e17f7c42de",
+    "code": 20291,
+    "name": "SA-94/3"
+  },
+  {
+    "id": "3b682cf4-7852-4811-ac58-e475b0dbaa0d",
+    "code": 21153,
+    "name": "SANEXT Mono CU"
+  },
+  {
+    "id": "31d79b05-af2e-42a0-a77d-22c24a5050b1",
+    "code": 21151,
+    "name": "SET.SIB"
+  },
+  {
+    "id": "9c60f2e3-df54-4e1d-9602-b44152cb7409",
+    "code": 21148,
+    "name": "SEVC-D (Corus)"
+  },
+  {
+    "id": "0268cb66-d47d-4c19-aa9f-096283d952f3",
+    "code": 21364,
+    "name": "SKAT 315"
+  },
+  {
+    "id": "5d235a8e-848f-4d2d-817a-4ce3aea63455",
+    "code": 20556,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-9ххМх"
+  },
+  {
+    "id": "b104d803-6a98-4188-8b3c-e70008e7dd3b",
+    "code": 20535,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-ххх"
+  },
+  {
+    "id": "ef44ebab-eb60-44f8-9611-ed2864b43bf5",
+    "code": 21079,
+    "name": "\"ВЗЛЕТ ЭР\" ЛАЙТ М"
+  },
+  {
+    "id": "e91aee3f-9962-40d3-a672-f56955b06d41",
+    "code": 20660,
+    "name": "\"ВЗЛЕТ\" ИВК-ТЭР"
+  },
+  {
+    "id": "a61dd512-e122-4dd8-a304-b47605f35dd5",
+    "code": 20123,
+    "name": "7КТ «Абакан»"
+  },
+  {
+    "id": "57517488-a2d3-45d7-88be-ee2ddc733e3a",
+    "code": 21068,
+    "name": "80020_xml"
+  },
+  {
+    "id": "7d02fbef-b9b7-4761-a14b-89f91c2e8cb8",
+    "code": 21130,
+    "name": "AllCom-M.01"
+  },
+  {
+    "id": "54c7b25e-b018-4ef1-8f89-5639a0ec4943",
+    "code": 20944,
+    "name": "API Линэрго"
+  },
+  {
+    "id": "303aca3d-9a4b-4c4a-8b1e-292c3b8af74c",
+    "code": 20528,
+    "name": "AS100"
+  },
+  {
+    "id": "028fd1dd-d5ef-4b8c-a682-984e528a5140",
+    "code": 20525,
+    "name": "AS3500"
+  },
+  {
+    "id": "05ae6f4b-1827-4dea-9376-5445e576cf03",
+    "code": 21341,
+    "name": "ASW-1-K"
+  },
+  {
+    "id": "a58e87bb-cc5d-456c-8708-691dd5b126b0",
+    "code": 21397,
+    "name": "BINOM3"
+  },
+  {
+    "id": "1fd14e0b-4a90-414f-ae0f-48ef5ce2ede6",
+    "code": 20665,
+    "name": "BOSF-10"
+  },
+  {
+    "id": "fac6d0ae-0feb-4018-8242-bf0d9e33a616",
+    "code": 20881,
+    "name": "Cello 4S"
+  },
+  {
+    "id": "eec5eb52-aa17-427c-b812-f17bc561223b",
+    "code": 21180,
+    "name": "ComAp InteliSys Gas"
+  },
+  {
+    "id": "1e2df1d4-cc90-4a4b-af2d-1bf61d3cb0f4",
+    "code": 21067,
+    "name": "DB ASUTE"
+  },
+  {
+    "id": "8c009e7e-0c7c-464d-be0e-ca750dead55e",
+    "code": 20396,
+    "name": "DIO-99М 5.4"
+  },
+  {
+    "id": "555beaed-d9b5-4407-9233-20c1b7cb820e",
+    "code": 20488,
+    "name": "DS18B20"
+  },
+  {
+    "id": "29696a95-18d3-4fd6-a286-640064264680",
+    "code": 20311,
+    "name": "DYMETIC-9412M/5101/5102/9415"
+  },
+  {
+    "id": "b456ae05-cb9d-456f-ab70-43f407d4f7e6",
+    "code": 21134,
+    "name": "Eastron SDM630MCT"
+  },
+  {
+    "id": "8f12fab2-5c45-4bf3-ada2-8da577b055c2",
+    "code": 20509,
+    "name": "EL-1205"
+  },
+  {
+    "id": "efc12f2b-da81-4f10-bcf8-f335229519a9",
+    "code": 21051,
+    "name": "EL-1503"
+  },
+  {
+    "id": "02c7af96-9549-4547-b563-3ae036644a7d",
+    "code": 21351,
+    "name": "EldisOCR"
+  },
+  {
+    "id": "6020dfe5-08c2-48e7-a9e9-d68f87e299b5",
+    "code": 20348,
+    "name": "ELKORA С-30 (S-25)"
+  },
+  {
+    "id": "a072a13c-55bd-4754-ac6a-decc11ccc8b6",
+    "code": 21382,
+    "name": "ERTX_ODK"
+  },
+  {
+    "id": "aa0ccdee-01ff-49ff-a3e9-59e4bf952fd2",
+    "code": 21327,
+    "name": "Eurosens Delta"
+  },
+  {
+    "id": "e6bc7099-27cc-4be8-a165-80ec83657fa3",
+    "code": 21074,
+    "name": "Eurosens Direct"
+  },
+  {
+    "id": "4242ec1c-9f59-4974-8fe4-e389aea7a078",
+    "code": 21069,
+    "name": "FloBoss 107"
+  },
+  {
+    "id": "a7975ef7-f5a8-45f6-9d3f-bef3579d9292",
+    "code": 20658,
+    "name": "FLOWSIC500"
+  },
+  {
+    "id": "e0699895-b579-4bac-af5b-be1447d49b2e",
+    "code": 21380,
+    "name": "HITERM SET ПУТ(У/М)-1"
+  },
+  {
+    "id": "4e56ae47-253a-41d8-b891-2a295062b77c",
+    "code": 21352,
+    "name": "i-PROM.1/3"
+  },
+  {
+    "id": "489c05e1-636e-4e22-a1eb-4df6a9bfed07",
+    "code": 20036,
+    "name": "KPR-2X2"
+  },
+  {
+    "id": "b0ceb7d7-a2db-4886-bb1c-5607715d6f95",
+    "code": 20327,
+    "name": "MT200DS"
+  },
+  {
+    "id": "3e12f46f-6046-4239-b3fd-51eabe526078",
+    "code": 20549,
+    "name": "MULTICAL 603"
+  },
+  {
+    "id": "1178d903-4870-47c2-84c8-bd8ab348ad58",
+    "code": 20309,
+    "name": "MULTICAL 60X"
+  },
+  {
+    "id": "3945d9f9-e093-4d06-857e-509f5985098c",
+    "code": 20303,
+    "name": "MULTICAL 66-CDE"
+  },
+  {
+    "id": "4428b9f9-3307-4117-bb06-09489de6eb19",
+    "code": 20386,
+    "name": "MULTICAL III 66-R"
+  },
+  {
+    "id": "7dcd1469-998c-4c7c-8f29-e77590b76e65",
+    "code": 20546,
+    "name": "MULTICAL III 66-В"
+  },
+  {
+    "id": "4da5b345-c29d-438a-8f8a-8faa4eb3735b",
+    "code": 20950,
+    "name": "Orionmeter LA-IP-I2C"
+  },
+  {
+    "id": "0cb89a7f-7feb-4690-949f-6c90fa16caf4",
+    "code": 20524,
+    "name": "Prime works NET"
+  },
+  {
+    "id": "d795cf4a-3a30-475e-a865-9a3245d454dd",
+    "code": 21176,
+    "name": "PROMODEM"
+  },
+  {
+    "id": "b31cdb01-ac65-413d-85e5-1ea88768c0a3",
+    "code": 20545,
+    "name": "RTU (Alfard)"
+  },
+  {
+    "id": "42651917-979d-4f8c-9d66-7686555b09a6",
+    "code": 20554,
+    "name": "RTU-325S"
+  },
+  {
+    "id": "86095f26-190f-4af9-9ffd-ef8dd4551cb2",
+    "code": 20293,
+    "name": "SA-94/1"
+  },
+  {
+    "id": "56b7a00d-ac6a-4b36-86bf-412e9d8b6f0c",
+    "code": 20292,
+    "name": "SA-94/2"
+  },
+  {
+    "id": "aca06b98-850b-4bf3-ad0f-58e17f7c42de",
+    "code": 20291,
+    "name": "SA-94/3"
+  },
+  {
+    "id": "3b682cf4-7852-4811-ac58-e475b0dbaa0d",
+    "code": 21153,
+    "name": "SANEXT Mono CU"
+  },
+  {
+    "id": "31d79b05-af2e-42a0-a77d-22c24a5050b1",
+    "code": 21151,
+    "name": "SET.SIB"
+  },
+  {
+    "id": "9c60f2e3-df54-4e1d-9602-b44152cb7409",
+    "code": 21148,
+    "name": "SEVC-D (Corus)"
+  },
+  {
+    "id": "0268cb66-d47d-4c19-aa9f-096283d952f3",
+    "code": 21364,
+    "name": "SKAT 315"
+  },
+  {
+    "id": "5d235a8e-848f-4d2d-817a-4ce3aea63455",
+    "code": 20556,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-9ххМх"
+  },
+  {
+    "id": "b104d803-6a98-4188-8b3c-e70008e7dd3b",
+    "code": 20535,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-ххх"
+  },
+  {
+    "id": "ef44ebab-eb60-44f8-9611-ed2864b43bf5",
+    "code": 21079,
+    "name": "\"ВЗЛЕТ ЭР\" ЛАЙТ М"
+  },
+  {
+    "id": "e91aee3f-9962-40d3-a672-f56955b06d41",
+    "code": 20660,
+    "name": "\"ВЗЛЕТ\" ИВК-ТЭР"
+  },
+  {
+    "id": "a61dd512-e122-4dd8-a304-b47605f35dd5",
+    "code": 20123,
+    "name": "7КТ «Абакан»"
+  },
+  {
+    "id": "57517488-a2d3-45d7-88be-ee2ddc733e3a",
+    "code": 21068,
+    "name": "80020_xml"
+  },
+  {
+    "id": "7d02fbef-b9b7-4761-a14b-89f91c2e8cb8",
+    "code": 21130,
+    "name": "AllCom-M.01"
+  },
+  {
+    "id": "54c7b25e-b018-4ef1-8f89-5639a0ec4943",
+    "code": 20944,
+    "name": "API Линэрго"
+  },
+  {
+    "id": "303aca3d-9a4b-4c4a-8b1e-292c3b8af74c",
+    "code": 20528,
+    "name": "AS100"
+  },
+  {
+    "id": "028fd1dd-d5ef-4b8c-a682-984e528a5140",
+    "code": 20525,
+    "name": "AS3500"
+  },
+  {
+    "id": "05ae6f4b-1827-4dea-9376-5445e576cf03",
+    "code": 21341,
+    "name": "ASW-1-K"
+  },
+  {
+    "id": "a58e87bb-cc5d-456c-8708-691dd5b126b0",
+    "code": 21397,
+    "name": "BINOM3"
+  },
+  {
+    "id": "1fd14e0b-4a90-414f-ae0f-48ef5ce2ede6",
+    "code": 20665,
+    "name": "BOSF-10"
+  },
+  {
+    "id": "fac6d0ae-0feb-4018-8242-bf0d9e33a616",
+    "code": 20881,
+    "name": "Cello 4S"
+  },
+  {
+    "id": "eec5eb52-aa17-427c-b812-f17bc561223b",
+    "code": 21180,
+    "name": "ComAp InteliSys Gas"
+  },
+  {
+    "id": "1e2df1d4-cc90-4a4b-af2d-1bf61d3cb0f4",
+    "code": 21067,
+    "name": "DB ASUTE"
+  },
+  {
+    "id": "8c009e7e-0c7c-464d-be0e-ca750dead55e",
+    "code": 20396,
+    "name": "DIO-99М 5.4"
+  },
+  {
+    "id": "555beaed-d9b5-4407-9233-20c1b7cb820e",
+    "code": 20488,
+    "name": "DS18B20"
+  },
+  {
+    "id": "29696a95-18d3-4fd6-a286-640064264680",
+    "code": 20311,
+    "name": "DYMETIC-9412M/5101/5102/9415"
+  },
+  {
+    "id": "b456ae05-cb9d-456f-ab70-43f407d4f7e6",
+    "code": 21134,
+    "name": "Eastron SDM630MCT"
+  },
+  {
+    "id": "8f12fab2-5c45-4bf3-ada2-8da577b055c2",
+    "code": 20509,
+    "name": "EL-1205"
+  },
+  {
+    "id": "efc12f2b-da81-4f10-bcf8-f335229519a9",
+    "code": 21051,
+    "name": "EL-1503"
+  },
+  {
+    "id": "02c7af96-9549-4547-b563-3ae036644a7d",
+    "code": 21351,
+    "name": "EldisOCR"
+  },
+  {
+    "id": "6020dfe5-08c2-48e7-a9e9-d68f87e299b5",
+    "code": 20348,
+    "name": "ELKORA С-30 (S-25)"
+  },
+  {
+    "id": "a072a13c-55bd-4754-ac6a-decc11ccc8b6",
+    "code": 21382,
+    "name": "ERTX_ODK"
+  },
+  {
+    "id": "aa0ccdee-01ff-49ff-a3e9-59e4bf952fd2",
+    "code": 21327,
+    "name": "Eurosens Delta"
+  },
+  {
+    "id": "e6bc7099-27cc-4be8-a165-80ec83657fa3",
+    "code": 21074,
+    "name": "Eurosens Direct"
+  },
+  {
+    "id": "4242ec1c-9f59-4974-8fe4-e389aea7a078",
+    "code": 21069,
+    "name": "FloBoss 107"
+  },
+  {
+    "id": "a7975ef7-f5a8-45f6-9d3f-bef3579d9292",
+    "code": 20658,
+    "name": "FLOWSIC500"
+  },
+  {
+    "id": "e0699895-b579-4bac-af5b-be1447d49b2e",
+    "code": 21380,
+    "name": "HITERM SET ПУТ(У/М)-1"
+  },
+  {
+    "id": "4e56ae47-253a-41d8-b891-2a295062b77c",
+    "code": 21352,
+    "name": "i-PROM.1/3"
+  },
+  {
+    "id": "489c05e1-636e-4e22-a1eb-4df6a9bfed07",
+    "code": 20036,
+    "name": "KPR-2X2"
+  },
+  {
+    "id": "b0ceb7d7-a2db-4886-bb1c-5607715d6f95",
+    "code": 20327,
+    "name": "MT200DS"
+  },
+  {
+    "id": "3e12f46f-6046-4239-b3fd-51eabe526078",
+    "code": 20549,
+    "name": "MULTICAL 603"
+  },
+  {
+    "id": "1178d903-4870-47c2-84c8-bd8ab348ad58",
+    "code": 20309,
+    "name": "MULTICAL 60X"
+  },
+  {
+    "id": "3945d9f9-e093-4d06-857e-509f5985098c",
+    "code": 20303,
+    "name": "MULTICAL 66-CDE"
+  },
+  {
+    "id": "4428b9f9-3307-4117-bb06-09489de6eb19",
+    "code": 20386,
+    "name": "MULTICAL III 66-R"
+  },
+  {
+    "id": "7dcd1469-998c-4c7c-8f29-e77590b76e65",
+    "code": 20546,
+    "name": "MULTICAL III 66-В"
+  },
+  {
+    "id": "4da5b345-c29d-438a-8f8a-8faa4eb3735b",
+    "code": 20950,
+    "name": "Orionmeter LA-IP-I2C"
+  },
+  {
+    "id": "0cb89a7f-7feb-4690-949f-6c90fa16caf4",
+    "code": 20524,
+    "name": "Prime works NET"
+  },
+  {
+    "id": "d795cf4a-3a30-475e-a865-9a3245d454dd",
+    "code": 21176,
+    "name": "PROMODEM"
+  },
+  {
+    "id": "b31cdb01-ac65-413d-85e5-1ea88768c0a3",
+    "code": 20545,
+    "name": "RTU (Alfard)"
+  },
+  {
+    "id": "42651917-979d-4f8c-9d66-7686555b09a6",
+    "code": 20554,
+    "name": "RTU-325S"
+  },
+  {
+    "id": "86095f26-190f-4af9-9ffd-ef8dd4551cb2",
+    "code": 20293,
+    "name": "SA-94/1"
+  },
+  {
+    "id": "56b7a00d-ac6a-4b36-86bf-412e9d8b6f0c",
+    "code": 20292,
+    "name": "SA-94/2"
+  },
+  {
+    "id": "aca06b98-850b-4bf3-ad0f-58e17f7c42de",
+    "code": 20291,
+    "name": "SA-94/3"
+  },
+  {
+    "id": "3b682cf4-7852-4811-ac58-e475b0dbaa0d",
+    "code": 21153,
+    "name": "SANEXT Mono CU"
+  },
+  {
+    "id": "31d79b05-af2e-42a0-a77d-22c24a5050b1",
+    "code": 21151,
+    "name": "SET.SIB"
+  },
+  {
+    "id": "9c60f2e3-df54-4e1d-9602-b44152cb7409",
+    "code": 21148,
+    "name": "SEVC-D (Corus)"
+  },
+  {
+    "id": "0268cb66-d47d-4c19-aa9f-096283d952f3",
+    "code": 21364,
+    "name": "SKAT 315"
+  },
+  {
+    "id": "5d235a8e-848f-4d2d-817a-4ce3aea63455",
+    "code": 20556,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-9ххМх"
+  },
+  {
+    "id": "b104d803-6a98-4188-8b3c-e70008e7dd3b",
+    "code": 20535,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-ххх"
+  },
+  {
+    "id": "ef44ebab-eb60-44f8-9611-ed2864b43bf5",
+    "code": 21079,
+    "name": "\"ВЗЛЕТ ЭР\" ЛАЙТ М"
+  },
+  {
+    "id": "e91aee3f-9962-40d3-a672-f56955b06d41",
+    "code": 20660,
+    "name": "\"ВЗЛЕТ\" ИВК-ТЭР"
+  },
+  {
+    "id": "a61dd512-e122-4dd8-a304-b47605f35dd5",
+    "code": 20123,
+    "name": "7КТ «Абакан»"
+  },
+  {
+    "id": "57517488-a2d3-45d7-88be-ee2ddc733e3a",
+    "code": 21068,
+    "name": "80020_xml"
+  },
+  {
+    "id": "7d02fbef-b9b7-4761-a14b-89f91c2e8cb8",
+    "code": 21130,
+    "name": "AllCom-M.01"
+  },
+  {
+    "id": "54c7b25e-b018-4ef1-8f89-5639a0ec4943",
+    "code": 20944,
+    "name": "API Линэрго"
+  },
+  {
+    "id": "303aca3d-9a4b-4c4a-8b1e-292c3b8af74c",
+    "code": 20528,
+    "name": "AS100"
+  },
+  {
+    "id": "028fd1dd-d5ef-4b8c-a682-984e528a5140",
+    "code": 20525,
+    "name": "AS3500"
+  },
+  {
+    "id": "05ae6f4b-1827-4dea-9376-5445e576cf03",
+    "code": 21341,
+    "name": "ASW-1-K"
+  },
+  {
+    "id": "a58e87bb-cc5d-456c-8708-691dd5b126b0",
+    "code": 21397,
+    "name": "BINOM3"
+  },
+  {
+    "id": "1fd14e0b-4a90-414f-ae0f-48ef5ce2ede6",
+    "code": 20665,
+    "name": "BOSF-10"
+  },
+  {
+    "id": "fac6d0ae-0feb-4018-8242-bf0d9e33a616",
+    "code": 20881,
+    "name": "Cello 4S"
+  },
+  {
+    "id": "eec5eb52-aa17-427c-b812-f17bc561223b",
+    "code": 21180,
+    "name": "ComAp InteliSys Gas"
+  },
+  {
+    "id": "1e2df1d4-cc90-4a4b-af2d-1bf61d3cb0f4",
+    "code": 21067,
+    "name": "DB ASUTE"
+  },
+  {
+    "id": "8c009e7e-0c7c-464d-be0e-ca750dead55e",
+    "code": 20396,
+    "name": "DIO-99М 5.4"
+  },
+  {
+    "id": "555beaed-d9b5-4407-9233-20c1b7cb820e",
+    "code": 20488,
+    "name": "DS18B20"
+  },
+  {
+    "id": "29696a95-18d3-4fd6-a286-640064264680",
+    "code": 20311,
+    "name": "DYMETIC-9412M/5101/5102/9415"
+  },
+  {
+    "id": "b456ae05-cb9d-456f-ab70-43f407d4f7e6",
+    "code": 21134,
+    "name": "Eastron SDM630MCT"
+  },
+  {
+    "id": "8f12fab2-5c45-4bf3-ada2-8da577b055c2",
+    "code": 20509,
+    "name": "EL-1205"
+  },
+  {
+    "id": "efc12f2b-da81-4f10-bcf8-f335229519a9",
+    "code": 21051,
+    "name": "EL-1503"
+  },
+  {
+    "id": "02c7af96-9549-4547-b563-3ae036644a7d",
+    "code": 21351,
+    "name": "EldisOCR"
+  },
+  {
+    "id": "6020dfe5-08c2-48e7-a9e9-d68f87e299b5",
+    "code": 20348,
+    "name": "ELKORA С-30 (S-25)"
+  },
+  {
+    "id": "a072a13c-55bd-4754-ac6a-decc11ccc8b6",
+    "code": 21382,
+    "name": "ERTX_ODK"
+  },
+  {
+    "id": "aa0ccdee-01ff-49ff-a3e9-59e4bf952fd2",
+    "code": 21327,
+    "name": "Eurosens Delta"
+  },
+  {
+    "id": "e6bc7099-27cc-4be8-a165-80ec83657fa3",
+    "code": 21074,
+    "name": "Eurosens Direct"
+  },
+  {
+    "id": "4242ec1c-9f59-4974-8fe4-e389aea7a078",
+    "code": 21069,
+    "name": "FloBoss 107"
+  },
+  {
+    "id": "a7975ef7-f5a8-45f6-9d3f-bef3579d9292",
+    "code": 20658,
+    "name": "FLOWSIC500"
+  },
+  {
+    "id": "e0699895-b579-4bac-af5b-be1447d49b2e",
+    "code": 21380,
+    "name": "HITERM SET ПУТ(У/М)-1"
+  },
+  {
+    "id": "4e56ae47-253a-41d8-b891-2a295062b77c",
+    "code": 21352,
+    "name": "i-PROM.1/3"
+  },
+  {
+    "id": "489c05e1-636e-4e22-a1eb-4df6a9bfed07",
+    "code": 20036,
+    "name": "KPR-2X2"
+  },
+  {
+    "id": "b0ceb7d7-a2db-4886-bb1c-5607715d6f95",
+    "code": 20327,
+    "name": "MT200DS"
+  },
+  {
+    "id": "3e12f46f-6046-4239-b3fd-51eabe526078",
+    "code": 20549,
+    "name": "MULTICAL 603"
+  },
+  {
+    "id": "1178d903-4870-47c2-84c8-bd8ab348ad58",
+    "code": 20309,
+    "name": "MULTICAL 60X"
+  },
+  {
+    "id": "3945d9f9-e093-4d06-857e-509f5985098c",
+    "code": 20303,
+    "name": "MULTICAL 66-CDE"
+  },
+  {
+    "id": "4428b9f9-3307-4117-bb06-09489de6eb19",
+    "code": 20386,
+    "name": "MULTICAL III 66-R"
+  },
+  {
+    "id": "7dcd1469-998c-4c7c-8f29-e77590b76e65",
+    "code": 20546,
+    "name": "MULTICAL III 66-В"
+  },
+  {
+    "id": "4da5b345-c29d-438a-8f8a-8faa4eb3735b",
+    "code": 20950,
+    "name": "Orionmeter LA-IP-I2C"
+  },
+  {
+    "id": "0cb89a7f-7feb-4690-949f-6c90fa16caf4",
+    "code": 20524,
+    "name": "Prime works NET"
+  },
+  {
+    "id": "d795cf4a-3a30-475e-a865-9a3245d454dd",
+    "code": 21176,
+    "name": "PROMODEM"
+  },
+  {
+    "id": "b31cdb01-ac65-413d-85e5-1ea88768c0a3",
+    "code": 20545,
+    "name": "RTU (Alfard)"
+  },
+  {
+    "id": "42651917-979d-4f8c-9d66-7686555b09a6",
+    "code": 20554,
+    "name": "RTU-325S"
+  },
+  {
+    "id": "86095f26-190f-4af9-9ffd-ef8dd4551cb2",
+    "code": 20293,
+    "name": "SA-94/1"
+  },
+  {
+    "id": "56b7a00d-ac6a-4b36-86bf-412e9d8b6f0c",
+    "code": 20292,
+    "name": "SA-94/2"
+  },
+  {
+    "id": "aca06b98-850b-4bf3-ad0f-58e17f7c42de",
+    "code": 20291,
+    "name": "SA-94/3"
+  },
+  {
+    "id": "3b682cf4-7852-4811-ac58-e475b0dbaa0d",
+    "code": 21153,
+    "name": "SANEXT Mono CU"
+  },
+  {
+    "id": "31d79b05-af2e-42a0-a77d-22c24a5050b1",
+    "code": 21151,
+    "name": "SET.SIB"
+  },
+  {
+    "id": "9c60f2e3-df54-4e1d-9602-b44152cb7409",
+    "code": 21148,
+    "name": "SEVC-D (Corus)"
+  },
+  {
+    "id": "0268cb66-d47d-4c19-aa9f-096283d952f3",
+    "code": 21364,
+    "name": "SKAT 315"
+  },
+  {
+    "id": "5d235a8e-848f-4d2d-817a-4ce3aea63455",
+    "code": 20556,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-9ххМх"
+  },
+  {
+    "id": "b104d803-6a98-4188-8b3c-e70008e7dd3b",
+    "code": 20535,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-ххх"
+  },
+  {
+    "id": "ef44ebab-eb60-44f8-9611-ed2864b43bf5",
+    "code": 21079,
+    "name": "\"ВЗЛЕТ ЭР\" ЛАЙТ М"
+  },
+  {
+    "id": "e91aee3f-9962-40d3-a672-f56955b06d41",
+    "code": 20660,
+    "name": "\"ВЗЛЕТ\" ИВК-ТЭР"
+  },
+  {
+    "id": "a61dd512-e122-4dd8-a304-b47605f35dd5",
+    "code": 20123,
+    "name": "7КТ «Абакан»"
+  },
+  {
+    "id": "57517488-a2d3-45d7-88be-ee2ddc733e3a",
+    "code": 21068,
+    "name": "80020_xml"
+  },
+  {
+    "id": "7d02fbef-b9b7-4761-a14b-89f91c2e8cb8",
+    "code": 21130,
+    "name": "AllCom-M.01"
+  },
+  {
+    "id": "54c7b25e-b018-4ef1-8f89-5639a0ec4943",
+    "code": 20944,
+    "name": "API Линэрго"
+  },
+  {
+    "id": "303aca3d-9a4b-4c4a-8b1e-292c3b8af74c",
+    "code": 20528,
+    "name": "AS100"
+  },
+  {
+    "id": "028fd1dd-d5ef-4b8c-a682-984e528a5140",
+    "code": 20525,
+    "name": "AS3500"
+  },
+  {
+    "id": "05ae6f4b-1827-4dea-9376-5445e576cf03",
+    "code": 21341,
+    "name": "ASW-1-K"
+  },
+  {
+    "id": "a58e87bb-cc5d-456c-8708-691dd5b126b0",
+    "code": 21397,
+    "name": "BINOM3"
+  },
+  {
+    "id": "1fd14e0b-4a90-414f-ae0f-48ef5ce2ede6",
+    "code": 20665,
+    "name": "BOSF-10"
+  },
+  {
+    "id": "fac6d0ae-0feb-4018-8242-bf0d9e33a616",
+    "code": 20881,
+    "name": "Cello 4S"
+  },
+  {
+    "id": "eec5eb52-aa17-427c-b812-f17bc561223b",
+    "code": 21180,
+    "name": "ComAp InteliSys Gas"
+  },
+  {
+    "id": "1e2df1d4-cc90-4a4b-af2d-1bf61d3cb0f4",
+    "code": 21067,
+    "name": "DB ASUTE"
+  },
+  {
+    "id": "8c009e7e-0c7c-464d-be0e-ca750dead55e",
+    "code": 20396,
+    "name": "DIO-99М 5.4"
+  },
+  {
+    "id": "555beaed-d9b5-4407-9233-20c1b7cb820e",
+    "code": 20488,
+    "name": "DS18B20"
+  },
+  {
+    "id": "29696a95-18d3-4fd6-a286-640064264680",
+    "code": 20311,
+    "name": "DYMETIC-9412M/5101/5102/9415"
+  },
+  {
+    "id": "b456ae05-cb9d-456f-ab70-43f407d4f7e6",
+    "code": 21134,
+    "name": "Eastron SDM630MCT"
+  },
+  {
+    "id": "8f12fab2-5c45-4bf3-ada2-8da577b055c2",
+    "code": 20509,
+    "name": "EL-1205"
+  },
+  {
+    "id": "efc12f2b-da81-4f10-bcf8-f335229519a9",
+    "code": 21051,
+    "name": "EL-1503"
+  },
+  {
+    "id": "02c7af96-9549-4547-b563-3ae036644a7d",
+    "code": 21351,
+    "name": "EldisOCR"
+  },
+  {
+    "id": "6020dfe5-08c2-48e7-a9e9-d68f87e299b5",
+    "code": 20348,
+    "name": "ELKORA С-30 (S-25)"
+  },
+  {
+    "id": "a072a13c-55bd-4754-ac6a-decc11ccc8b6",
+    "code": 21382,
+    "name": "ERTX_ODK"
+  },
+  {
+    "id": "aa0ccdee-01ff-49ff-a3e9-59e4bf952fd2",
+    "code": 21327,
+    "name": "Eurosens Delta"
+  },
+  {
+    "id": "e6bc7099-27cc-4be8-a165-80ec83657fa3",
+    "code": 21074,
+    "name": "Eurosens Direct"
+  },
+  {
+    "id": "4242ec1c-9f59-4974-8fe4-e389aea7a078",
+    "code": 21069,
+    "name": "FloBoss 107"
+  },
+  {
+    "id": "a7975ef7-f5a8-45f6-9d3f-bef3579d9292",
+    "code": 20658,
+    "name": "FLOWSIC500"
+  },
+  {
+    "id": "e0699895-b579-4bac-af5b-be1447d49b2e",
+    "code": 21380,
+    "name": "HITERM SET ПУТ(У/М)-1"
+  },
+  {
+    "id": "4e56ae47-253a-41d8-b891-2a295062b77c",
+    "code": 21352,
+    "name": "i-PROM.1/3"
+  },
+  {
+    "id": "489c05e1-636e-4e22-a1eb-4df6a9bfed07",
+    "code": 20036,
+    "name": "KPR-2X2"
+  },
+  {
+    "id": "b0ceb7d7-a2db-4886-bb1c-5607715d6f95",
+    "code": 20327,
+    "name": "MT200DS"
+  },
+  {
+    "id": "3e12f46f-6046-4239-b3fd-51eabe526078",
+    "code": 20549,
+    "name": "MULTICAL 603"
+  },
+  {
+    "id": "1178d903-4870-47c2-84c8-bd8ab348ad58",
+    "code": 20309,
+    "name": "MULTICAL 60X"
+  },
+  {
+    "id": "3945d9f9-e093-4d06-857e-509f5985098c",
+    "code": 20303,
+    "name": "MULTICAL 66-CDE"
+  },
+  {
+    "id": "4428b9f9-3307-4117-bb06-09489de6eb19",
+    "code": 20386,
+    "name": "MULTICAL III 66-R"
+  },
+  {
+    "id": "7dcd1469-998c-4c7c-8f29-e77590b76e65",
+    "code": 20546,
+    "name": "MULTICAL III 66-В"
+  },
+  {
+    "id": "4da5b345-c29d-438a-8f8a-8faa4eb3735b",
+    "code": 20950,
+    "name": "Orionmeter LA-IP-I2C"
+  },
+  {
+    "id": "0cb89a7f-7feb-4690-949f-6c90fa16caf4",
+    "code": 20524,
+    "name": "Prime works NET"
+  },
+  {
+    "id": "d795cf4a-3a30-475e-a865-9a3245d454dd",
+    "code": 21176,
+    "name": "PROMODEM"
+  },
+  {
+    "id": "b31cdb01-ac65-413d-85e5-1ea88768c0a3",
+    "code": 20545,
+    "name": "RTU (Alfard)"
+  },
+  {
+    "id": "42651917-979d-4f8c-9d66-7686555b09a6",
+    "code": 20554,
+    "name": "RTU-325S"
+  },
+  {
+    "id": "86095f26-190f-4af9-9ffd-ef8dd4551cb2",
+    "code": 20293,
+    "name": "SA-94/1"
+  },
+  {
+    "id": "56b7a00d-ac6a-4b36-86bf-412e9d8b6f0c",
+    "code": 20292,
+    "name": "SA-94/2"
+  },
+  {
+    "id": "aca06b98-850b-4bf3-ad0f-58e17f7c42de",
+    "code": 20291,
+    "name": "SA-94/3"
+  },
+  {
+    "id": "3b682cf4-7852-4811-ac58-e475b0dbaa0d",
+    "code": 21153,
+    "name": "SANEXT Mono CU"
+  },
+  {
+    "id": "31d79b05-af2e-42a0-a77d-22c24a5050b1",
+    "code": 21151,
+    "name": "SET.SIB"
+  },
+  {
+    "id": "9c60f2e3-df54-4e1d-9602-b44152cb7409",
+    "code": 21148,
+    "name": "SEVC-D (Corus)"
+  },
+  {
+    "id": "0268cb66-d47d-4c19-aa9f-096283d952f3",
+    "code": 21364,
+    "name": "SKAT 315"
+  },
+  {
+    "id": "5d235a8e-848f-4d2d-817a-4ce3aea63455",
+    "code": 20556,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-9ххМх"
+  },
+  {
+    "id": "b104d803-6a98-4188-8b3c-e70008e7dd3b",
+    "code": 20535,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-ххх"
+  },
+  {
+    "id": "ef44ebab-eb60-44f8-9611-ed2864b43bf5",
+    "code": 21079,
+    "name": "\"ВЗЛЕТ ЭР\" ЛАЙТ М"
+  },
+  {
+    "id": "e91aee3f-9962-40d3-a672-f56955b06d41",
+    "code": 20660,
+    "name": "\"ВЗЛЕТ\" ИВК-ТЭР"
+  },
+  {
+    "id": "a61dd512-e122-4dd8-a304-b47605f35dd5",
+    "code": 20123,
+    "name": "7КТ «Абакан»"
+  },
+  {
+    "id": "57517488-a2d3-45d7-88be-ee2ddc733e3a",
+    "code": 21068,
+    "name": "80020_xml"
+  },
+  {
+    "id": "7d02fbef-b9b7-4761-a14b-89f91c2e8cb8",
+    "code": 21130,
+    "name": "AllCom-M.01"
+  },
+  {
+    "id": "54c7b25e-b018-4ef1-8f89-5639a0ec4943",
+    "code": 20944,
+    "name": "API Линэрго"
+  },
+  {
+    "id": "303aca3d-9a4b-4c4a-8b1e-292c3b8af74c",
+    "code": 20528,
+    "name": "AS100"
+  },
+  {
+    "id": "028fd1dd-d5ef-4b8c-a682-984e528a5140",
+    "code": 20525,
+    "name": "AS3500"
+  },
+  {
+    "id": "05ae6f4b-1827-4dea-9376-5445e576cf03",
+    "code": 21341,
+    "name": "ASW-1-K"
+  },
+  {
+    "id": "a58e87bb-cc5d-456c-8708-691dd5b126b0",
+    "code": 21397,
+    "name": "BINOM3"
+  },
+  {
+    "id": "1fd14e0b-4a90-414f-ae0f-48ef5ce2ede6",
+    "code": 20665,
+    "name": "BOSF-10"
+  },
+  {
+    "id": "fac6d0ae-0feb-4018-8242-bf0d9e33a616",
+    "code": 20881,
+    "name": "Cello 4S"
+  },
+  {
+    "id": "eec5eb52-aa17-427c-b812-f17bc561223b",
+    "code": 21180,
+    "name": "ComAp InteliSys Gas"
+  },
+  {
+    "id": "1e2df1d4-cc90-4a4b-af2d-1bf61d3cb0f4",
+    "code": 21067,
+    "name": "DB ASUTE"
+  },
+  {
+    "id": "8c009e7e-0c7c-464d-be0e-ca750dead55e",
+    "code": 20396,
+    "name": "DIO-99М 5.4"
+  },
+  {
+    "id": "555beaed-d9b5-4407-9233-20c1b7cb820e",
+    "code": 20488,
+    "name": "DS18B20"
+  },
+  {
+    "id": "29696a95-18d3-4fd6-a286-640064264680",
+    "code": 20311,
+    "name": "DYMETIC-9412M/5101/5102/9415"
+  },
+  {
+    "id": "b456ae05-cb9d-456f-ab70-43f407d4f7e6",
+    "code": 21134,
+    "name": "Eastron SDM630MCT"
+  },
+  {
+    "id": "8f12fab2-5c45-4bf3-ada2-8da577b055c2",
+    "code": 20509,
+    "name": "EL-1205"
+  },
+  {
+    "id": "efc12f2b-da81-4f10-bcf8-f335229519a9",
+    "code": 21051,
+    "name": "EL-1503"
+  },
+  {
+    "id": "02c7af96-9549-4547-b563-3ae036644a7d",
+    "code": 21351,
+    "name": "EldisOCR"
+  },
+  {
+    "id": "6020dfe5-08c2-48e7-a9e9-d68f87e299b5",
+    "code": 20348,
+    "name": "ELKORA С-30 (S-25)"
+  },
+  {
+    "id": "a072a13c-55bd-4754-ac6a-decc11ccc8b6",
+    "code": 21382,
+    "name": "ERTX_ODK"
+  },
+  {
+    "id": "aa0ccdee-01ff-49ff-a3e9-59e4bf952fd2",
+    "code": 21327,
+    "name": "Eurosens Delta"
+  },
+  {
+    "id": "e6bc7099-27cc-4be8-a165-80ec83657fa3",
+    "code": 21074,
+    "name": "Eurosens Direct"
+  },
+  {
+    "id": "4242ec1c-9f59-4974-8fe4-e389aea7a078",
+    "code": 21069,
+    "name": "FloBoss 107"
+  },
+  {
+    "id": "a7975ef7-f5a8-45f6-9d3f-bef3579d9292",
+    "code": 20658,
+    "name": "FLOWSIC500"
+  },
+  {
+    "id": "e0699895-b579-4bac-af5b-be1447d49b2e",
+    "code": 21380,
+    "name": "HITERM SET ПУТ(У/М)-1"
+  },
+  {
+    "id": "4e56ae47-253a-41d8-b891-2a295062b77c",
+    "code": 21352,
+    "name": "i-PROM.1/3"
+  },
+  {
+    "id": "489c05e1-636e-4e22-a1eb-4df6a9bfed07",
+    "code": 20036,
+    "name": "KPR-2X2"
+  },
+  {
+    "id": "b0ceb7d7-a2db-4886-bb1c-5607715d6f95",
+    "code": 20327,
+    "name": "MT200DS"
+  },
+  {
+    "id": "3e12f46f-6046-4239-b3fd-51eabe526078",
+    "code": 20549,
+    "name": "MULTICAL 603"
+  },
+  {
+    "id": "1178d903-4870-47c2-84c8-bd8ab348ad58",
+    "code": 20309,
+    "name": "MULTICAL 60X"
+  },
+  {
+    "id": "3945d9f9-e093-4d06-857e-509f5985098c",
+    "code": 20303,
+    "name": "MULTICAL 66-CDE"
+  },
+  {
+    "id": "4428b9f9-3307-4117-bb06-09489de6eb19",
+    "code": 20386,
+    "name": "MULTICAL III 66-R"
+  },
+  {
+    "id": "7dcd1469-998c-4c7c-8f29-e77590b76e65",
+    "code": 20546,
+    "name": "MULTICAL III 66-В"
+  },
+  {
+    "id": "4da5b345-c29d-438a-8f8a-8faa4eb3735b",
+    "code": 20950,
+    "name": "Orionmeter LA-IP-I2C"
+  },
+  {
+    "id": "0cb89a7f-7feb-4690-949f-6c90fa16caf4",
+    "code": 20524,
+    "name": "Prime works NET"
+  },
+  {
+    "id": "d795cf4a-3a30-475e-a865-9a3245d454dd",
+    "code": 21176,
+    "name": "PROMODEM"
+  },
+  {
+    "id": "b31cdb01-ac65-413d-85e5-1ea88768c0a3",
+    "code": 20545,
+    "name": "RTU (Alfard)"
+  },
+  {
+    "id": "42651917-979d-4f8c-9d66-7686555b09a6",
+    "code": 20554,
+    "name": "RTU-325S"
+  },
+  {
+    "id": "86095f26-190f-4af9-9ffd-ef8dd4551cb2",
+    "code": 20293,
+    "name": "SA-94/1"
+  },
+  {
+    "id": "56b7a00d-ac6a-4b36-86bf-412e9d8b6f0c",
+    "code": 20292,
+    "name": "SA-94/2"
+  },
+  {
+    "id": "aca06b98-850b-4bf3-ad0f-58e17f7c42de",
+    "code": 20291,
+    "name": "SA-94/3"
+  },
+  {
+    "id": "3b682cf4-7852-4811-ac58-e475b0dbaa0d",
+    "code": 21153,
+    "name": "SANEXT Mono CU"
+  },
+  {
+    "id": "31d79b05-af2e-42a0-a77d-22c24a5050b1",
+    "code": 21151,
+    "name": "SET.SIB"
+  },
+  {
+    "id": "9c60f2e3-df54-4e1d-9602-b44152cb7409",
+    "code": 21148,
+    "name": "SEVC-D (Corus)"
+  },
+  {
+    "id": "0268cb66-d47d-4c19-aa9f-096283d952f3",
+    "code": 21364,
+    "name": "SKAT 315"
+  },
+  {
+    "id": "5d235a8e-848f-4d2d-817a-4ce3aea63455",
+    "code": 20556,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-9ххМх"
+  },
+  {
+    "id": "b104d803-6a98-4188-8b3c-e70008e7dd3b",
+    "code": 20535,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-ххх"
+  },
+  {
+    "id": "ef44ebab-eb60-44f8-9611-ed2864b43bf5",
+    "code": 21079,
+    "name": "\"ВЗЛЕТ ЭР\" ЛАЙТ М"
+  },
+  {
+    "id": "e91aee3f-9962-40d3-a672-f56955b06d41",
+    "code": 20660,
+    "name": "\"ВЗЛЕТ\" ИВК-ТЭР"
+  },
+  {
+    "id": "a61dd512-e122-4dd8-a304-b47605f35dd5",
+    "code": 20123,
+    "name": "7КТ «Абакан»"
+  },
+  {
+    "id": "57517488-a2d3-45d7-88be-ee2ddc733e3a",
+    "code": 21068,
+    "name": "80020_xml"
+  },
+  {
+    "id": "7d02fbef-b9b7-4761-a14b-89f91c2e8cb8",
+    "code": 21130,
+    "name": "AllCom-M.01"
+  },
+  {
+    "id": "54c7b25e-b018-4ef1-8f89-5639a0ec4943",
+    "code": 20944,
+    "name": "API Линэрго"
+  },
+  {
+    "id": "303aca3d-9a4b-4c4a-8b1e-292c3b8af74c",
+    "code": 20528,
+    "name": "AS100"
+  },
+  {
+    "id": "028fd1dd-d5ef-4b8c-a682-984e528a5140",
+    "code": 20525,
+    "name": "AS3500"
+  },
+  {
+    "id": "05ae6f4b-1827-4dea-9376-5445e576cf03",
+    "code": 21341,
+    "name": "ASW-1-K"
+  },
+  {
+    "id": "a58e87bb-cc5d-456c-8708-691dd5b126b0",
+    "code": 21397,
+    "name": "BINOM3"
+  },
+  {
+    "id": "1fd14e0b-4a90-414f-ae0f-48ef5ce2ede6",
+    "code": 20665,
+    "name": "BOSF-10"
+  },
+  {
+    "id": "fac6d0ae-0feb-4018-8242-bf0d9e33a616",
+    "code": 20881,
+    "name": "Cello 4S"
+  },
+  {
+    "id": "eec5eb52-aa17-427c-b812-f17bc561223b",
+    "code": 21180,
+    "name": "ComAp InteliSys Gas"
+  },
+  {
+    "id": "1e2df1d4-cc90-4a4b-af2d-1bf61d3cb0f4",
+    "code": 21067,
+    "name": "DB ASUTE"
+  },
+  {
+    "id": "8c009e7e-0c7c-464d-be0e-ca750dead55e",
+    "code": 20396,
+    "name": "DIO-99М 5.4"
+  },
+  {
+    "id": "555beaed-d9b5-4407-9233-20c1b7cb820e",
+    "code": 20488,
+    "name": "DS18B20"
+  },
+  {
+    "id": "29696a95-18d3-4fd6-a286-640064264680",
+    "code": 20311,
+    "name": "DYMETIC-9412M/5101/5102/9415"
+  },
+  {
+    "id": "b456ae05-cb9d-456f-ab70-43f407d4f7e6",
+    "code": 21134,
+    "name": "Eastron SDM630MCT"
+  },
+  {
+    "id": "8f12fab2-5c45-4bf3-ada2-8da577b055c2",
+    "code": 20509,
+    "name": "EL-1205"
+  },
+  {
+    "id": "efc12f2b-da81-4f10-bcf8-f335229519a9",
+    "code": 21051,
+    "name": "EL-1503"
+  },
+  {
+    "id": "02c7af96-9549-4547-b563-3ae036644a7d",
+    "code": 21351,
+    "name": "EldisOCR"
+  },
+  {
+    "id": "6020dfe5-08c2-48e7-a9e9-d68f87e299b5",
+    "code": 20348,
+    "name": "ELKORA С-30 (S-25)"
+  },
+  {
+    "id": "a072a13c-55bd-4754-ac6a-decc11ccc8b6",
+    "code": 21382,
+    "name": "ERTX_ODK"
+  },
+  {
+    "id": "aa0ccdee-01ff-49ff-a3e9-59e4bf952fd2",
+    "code": 21327,
+    "name": "Eurosens Delta"
+  },
+  {
+    "id": "e6bc7099-27cc-4be8-a165-80ec83657fa3",
+    "code": 21074,
+    "name": "Eurosens Direct"
+  },
+  {
+    "id": "4242ec1c-9f59-4974-8fe4-e389aea7a078",
+    "code": 21069,
+    "name": "FloBoss 107"
+  },
+  {
+    "id": "a7975ef7-f5a8-45f6-9d3f-bef3579d9292",
+    "code": 20658,
+    "name": "FLOWSIC500"
+  },
+  {
+    "id": "e0699895-b579-4bac-af5b-be1447d49b2e",
+    "code": 21380,
+    "name": "HITERM SET ПУТ(У/М)-1"
+  },
+  {
+    "id": "4e56ae47-253a-41d8-b891-2a295062b77c",
+    "code": 21352,
+    "name": "i-PROM.1/3"
+  },
+  {
+    "id": "489c05e1-636e-4e22-a1eb-4df6a9bfed07",
+    "code": 20036,
+    "name": "KPR-2X2"
+  },
+  {
+    "id": "b0ceb7d7-a2db-4886-bb1c-5607715d6f95",
+    "code": 20327,
+    "name": "MT200DS"
+  },
+  {
+    "id": "3e12f46f-6046-4239-b3fd-51eabe526078",
+    "code": 20549,
+    "name": "MULTICAL 603"
+  },
+  {
+    "id": "1178d903-4870-47c2-84c8-bd8ab348ad58",
+    "code": 20309,
+    "name": "MULTICAL 60X"
+  },
+  {
+    "id": "3945d9f9-e093-4d06-857e-509f5985098c",
+    "code": 20303,
+    "name": "MULTICAL 66-CDE"
+  },
+  {
+    "id": "4428b9f9-3307-4117-bb06-09489de6eb19",
+    "code": 20386,
+    "name": "MULTICAL III 66-R"
+  },
+  {
+    "id": "7dcd1469-998c-4c7c-8f29-e77590b76e65",
+    "code": 20546,
+    "name": "MULTICAL III 66-В"
+  },
+  {
+    "id": "4da5b345-c29d-438a-8f8a-8faa4eb3735b",
+    "code": 20950,
+    "name": "Orionmeter LA-IP-I2C"
+  },
+  {
+    "id": "0cb89a7f-7feb-4690-949f-6c90fa16caf4",
+    "code": 20524,
+    "name": "Prime works NET"
+  },
+  {
+    "id": "d795cf4a-3a30-475e-a865-9a3245d454dd",
+    "code": 21176,
+    "name": "PROMODEM"
+  },
+  {
+    "id": "b31cdb01-ac65-413d-85e5-1ea88768c0a3",
+    "code": 20545,
+    "name": "RTU (Alfard)"
+  },
+  {
+    "id": "42651917-979d-4f8c-9d66-7686555b09a6",
+    "code": 20554,
+    "name": "RTU-325S"
+  },
+  {
+    "id": "86095f26-190f-4af9-9ffd-ef8dd4551cb2",
+    "code": 20293,
+    "name": "SA-94/1"
+  },
+  {
+    "id": "56b7a00d-ac6a-4b36-86bf-412e9d8b6f0c",
+    "code": 20292,
+    "name": "SA-94/2"
+  },
+  {
+    "id": "aca06b98-850b-4bf3-ad0f-58e17f7c42de",
+    "code": 20291,
+    "name": "SA-94/3"
+  },
+  {
+    "id": "3b682cf4-7852-4811-ac58-e475b0dbaa0d",
+    "code": 21153,
+    "name": "SANEXT Mono CU"
+  },
+  {
+    "id": "31d79b05-af2e-42a0-a77d-22c24a5050b1",
+    "code": 21151,
+    "name": "SET.SIB"
+  },
+  {
+    "id": "9c60f2e3-df54-4e1d-9602-b44152cb7409",
+    "code": 21148,
+    "name": "SEVC-D (Corus)"
+  },
+  {
+    "id": "0268cb66-d47d-4c19-aa9f-096283d952f3",
+    "code": 21364,
+    "name": "SKAT 315"
+  },
+  {
+    "id": "5d235a8e-848f-4d2d-817a-4ce3aea63455",
+    "code": 20556,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-9ххМх"
+  },
+  {
+    "id": "b104d803-6a98-4188-8b3c-e70008e7dd3b",
+    "code": 20535,
+    "name": "\"ВЗЛЕТ ЭМ\" ЭКСПЕРТ-ххх"
+  },
+  {
+    "id": "ef44ebab-eb60-44f8-9611-ed2864b43bf5",
+    "code": 21079,
+    "name": "\"ВЗЛЕТ ЭР\" ЛАЙТ М"
+  },
+  {
+    "id": "e91aee3f-9962-40d3-a672-f56955b06d41",
+    "code": 20660,
+    "name": "\"ВЗЛЕТ\" ИВК-ТЭР"
+  },
+  {
+    "id": "a61dd512-e122-4dd8-a304-b47605f35dd5",
+    "code": 20123,
+    "name": "7КТ «Абакан»"
+  },
+  {
+    "id": "57517488-a2d3-45d7-88be-ee2ddc733e3a",
+    "code": 21068,
+    "name": "80020_xml"
+  },
+  {
+    "id": "7d02fbef-b9b7-4761-a14b-89f91c2e8cb8",
+    "code": 21130,
+    "name": "AllCom-M.01"
+  },
+  {
+    "id": "54c7b25e-b018-4ef1-8f89-5639a0ec4943",
+    "code": 20944,
+    "name": "API Линэрго"
+  },
+  {
+    "id": "303aca3d-9a4b-4c4a-8b1e-292c3b8af74c",
+    "code": 20528,
+    "name": "AS100"
+  },
+  {
+    "id": "028fd1dd-d5ef-4b8c-a682-984e528a5140",
+    "code": 20525,
+    "name": "AS3500"
+  },
+  {
+    "id": "05ae6f4b-1827-4dea-9376-5445e576cf03",
+    "code": 21341,
+    "name": "ASW-1-K"
+  },
+  {
+    "id": "a58e87bb-cc5d-456c-8708-691dd5b126b0",
+    "code": 21397,
+    "name": "BINOM3"
+  },
+  {
+    "id": "1fd14e0b-4a90-414f-ae0f-48ef5ce2ede6",
+    "code": 20665,
+    "name": "BOSF-10"
+  },
+  {
+    "id": "fac6d0ae-0feb-4018-8242-bf0d9e33a616",
+    "code": 20881,
+    "name": "Cello 4S"
+  },
+  {
+    "id": "eec5eb52-aa17-427c-b812-f17bc561223b",
+    "code": 21180,
+    "name": "ComAp InteliSys Gas"
+  },
+  {
+    "id": "1e2df1d4-cc90-4a4b-af2d-1bf61d3cb0f4",
+    "code": 21067,
+    "name": "DB ASUTE"
+  },
+  {
+    "id": "8c009e7e-0c7c-464d-be0e-ca750dead55e",
+    "code": 20396,
+    "name": "DIO-99М 5.4"
+  },
+  {
+    "id": "555beaed-d9b5-4407-9233-20c1b7cb820e",
+    "code": 20488,
+    "name": "DS18B20"
+  },
+  {
+    "id": "29696a95-18d3-4fd6-a286-640064264680",
+    "code": 20311,
+    "name": "DYMETIC-9412M/5101/5102/9415"
+  },
+  {
+    "id": "b456ae05-cb9d-456f-ab70-43f407d4f7e6",
+    "code": 21134,
+    "name": "Eastron SDM630MCT"
+  },
+  {
+    "id": "8f12fab2-5c45-4bf3-ada2-8da577b055c2",
+    "code": 20509,
+    "name": "EL-1205"
+  },
+  {
+    "id": "efc12f2b-da81-4f10-bcf8-f335229519a9",
+    "code": 21051,
+    "name": "EL-1503"
+  },
+  {
+    "id": "02c7af96-9549-4547-b563-3ae036644a7d",
+    "code": 21351,
+    "name": "EldisOCR"
+  },
+  {
+    "id": "6020dfe5-08c2-48e7-a9e9-d68f87e299b5",
+    "code": 20348,
+    "name": "ELKORA С-30 (S-25)"
+  },
+  {
+    "id": "a072a13c-55bd-4754-ac6a-decc11ccc8b6",
+    "code": 21382,
+    "name": "ERTX_ODK"
+  },
+  {
+    "id": "aa0ccdee-01ff-49ff-a3e9-59e4bf952fd2",
+    "code": 21327,
+    "name": "Eurosens Delta"
+  },
+  {
+    "id": "e6bc7099-27cc-4be8-a165-80ec83657fa3",
+    "code": 21074,
+    "name": "Eurosens Direct"
+  },
+  {
+    "id": "4242ec1c-9f59-4974-8fe4-e389aea7a078",
+    "code": 21069,
+    "name": "FloBoss 107"
+  },
+  {
+    "id": "a7975ef7-f5a8-45f6-9d3f-bef3579d9292",
+    "code": 20658,
+    "name": "FLOWSIC500"
+  },
+  {
+    "id": "e0699895-b579-4bac-af5b-be1447d49b2e",
+    "code": 21380,
+    "name": "HITERM SET ПУТ(У/М)-1"
+  },
+  {
+    "id": "4e56ae47-253a-41d8-b891-2a295062b77c",
+    "code": 21352,
+    "name": "i-PROM.1/3"
+  },
+  {
+    "id": "489c05e1-636e-4e22-a1eb-4df6a9bfed07",
+    "code": 20036,
+    "name": "KPR-2X2"
+  },
+  {
+    "id": "b0ceb7d7-a2db-4886-bb1c-5607715d6f95",
+    "code": 20327,
+    "name": "MT200DS"
+  },
+  {
+    "id": "3e12f46f-6046-4239-b3fd-51eabe526078",
+    "code": 20549,
+    "name": "MULTICAL 603"
+  },
+  {
+    "id": "1178d903-4870-47c2-84c8-bd8ab348ad58",
+    "code": 20309,
+    "name": "MULTICAL 60X"
+  },
+  {
+    "id": "3945d9f9-e093-4d06-857e-509f5985098c",
+    "code": 20303,
+    "name": "MULTICAL 66-CDE"
+  },
+  {
+    "id": "4428b9f9-3307-4117-bb06-09489de6eb19",
+    "code": 20386,
+    "name": "MULTICAL III 66-R"
+  },
+  {
+    "id": "7dcd1469-998c-4c7c-8f29-e77590b76e65",
+    "code": 20546,
+    "name": "MULTICAL III 66-В"
+  },
+  {
+    "id": "4da5b345-c29d-438a-8f8a-8faa4eb3735b",
+    "code": 20950,
+    "name": "Orionmeter LA-IP-I2C"
+  },
+  {
+    "id": "0cb89a7f-7feb-4690-949f-6c90fa16caf4",
+    "code": 20524,
+    "name": "Prime works NET"
+  },
+  {
+    "id": "d795cf4a-3a30-475e-a865-9a3245d454dd",
+    "code": 21176,
+    "name": "PROMODEM"
+  },
+  {
+    "id": "b31cdb01-ac65-413d-85e5-1ea88768c0a3",
+    "code": 20545,
+    "name": "RTU (Alfard)"
+  },
+  {
+    "id": "42651917-979d-4f8c-9d66-7686555b09a6",
+    "code": 20554,
+    "name": "RTU-325S"
+  },
+  {
+    "id": "86095f26-190f-4af9-9ffd-ef8dd4551cb2",
+    "code": 20293,
+    "name": "SA-94/1"
+  },
+  {
+    "id": "56b7a00d-ac6a-4b36-86bf-412e9d8b6f0c",
+    "code": 20292,
+    "name": "SA-94/2"
+  },
+  {
+    "id": "aca06b98-850b-4bf3-ad0f-58e17f7c42de",
+    "code": 20291,
+    "name": "SA-94/3"
+  },
+  {
+    "id": "3b682cf4-7852-4811-ac58-e475b0dbaa0d",
+    "code": 21153,
+    "name": "SANEXT Mono CU"
+  },
+  {
+    "id": "31d79b05-af2e-42a0-a77d-22c24a5050b1",
+    "code": 21151,
+    "name": "SET.SIB"
+  },
+  {
+    "id": "9c60f2e3-df54-4e1d-9602-b44152cb7409",
+    "code": 21148,
+    "name": "SEVC-D (Corus)"
+  },
+  {
+    "id": "0268cb66-d47d-4c19-aa9f-096283d952f3",
+    "code": 21364,
+    "name": "SKAT 315"
+  }
+]

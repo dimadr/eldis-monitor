@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Потребление ресурса</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            font-size: 8pt;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            padding: 15px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            font-size: 12pt;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+        .header .meta {
+            font-size: 7pt;
+            text-align: left;
+            line-height: 1.5;
+        }
+        .info-block {
+            font-size: 7pt;
+            text-align: left;
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+        table.eldis-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 7pt;
+            margin-top: 10px;
+        }
+        table.eldis-table th {
+            background: #D3D3D3;
+            border: 1px solid #000;
+            padding: 2px 4px;
+            text-align: center;
+            font-weight: normal;
+            font-size: 7pt;
+        }
+        table.eldis-table th.rotate {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            transform: rotate(180deg);
+            padding: 2px;
+            font-size: 6pt;
+        }
+        table.eldis-table td {
+            border: 1px solid #000;
+            border-top: 1px solid #000;
+            padding: 2px 4px;
+            text-align: center;
+            font-size: 7pt;
+            white-space: nowrap;
+        }
+        table.eldis-table td.label {
+            text-align: left;
+            font-weight: normal;
+            background: #f0f0f0;
+        }
+        table.eldis-table td.na {
+            color: #999;
+        }
+        table.eldis-table .border-left {
+            border-left: 1px solid #000;
+        }
+        .avg-row td, .tot-row td {
+            font-weight: normal;
+            background: #f5f5f5;
+        }
+        .tot-row {
+            font-weight: normal;
+        }
+        .tot-row td {
+            background: #e8e8e8;
+        }
+        .section-title {
+            font-size: 10pt;
+            font-weight: normal;
+            margin: 20px 0 10px 0;
+            text-align: center;
+        }
+        .signatures {
+            margin-top: 30px;
+            font-size: 8pt;
+            display: flex;
+            justify-content: space-between;
+        }
+        .signature-box {
+            width: 45%;
+            text-align: center;
+        }
+        .signature-line {
+            margin-top: 40px;
+            border-top: 1px solid #000;
+            padding-top: 5px;
+        }
+        .btn-row {
+            margin: 15px 0;
+            text-align: center;
+        }
+        .btn-row a, .btn-row button {
+            display: inline-block;
+            padding: 8px 16px;
+            margin: 0 5px;
+            background: #4a90d9;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .btn-row a:hover, .btn-row button:hover {
+            background: #357abd;
+        }
+        .checks-section {
+            margin: 20px 0;
+            font-size: 8pt;
+        }
+        .check-item {
+            padding: 5px 10px;
+            margin: 3px 0;
+            border-radius: 3px;
+        }
+        .check-item.ok {
+            background: #d4edda;
+            color: #155724;
+        }
+        .check-item.error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .analysis-section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f0f7ff;
+            border: 1px solid #b8daff;
+            border-radius: 5px;
+            font-size: 9pt;
+        }
+        .analysis-section h3 {
+            font-size: 10pt;
+            color: #004085;
+            margin-bottom: 10px;
+        }
+        .saved-notice {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 9pt;
+        }
+        .page-break {
+            page-break-after: always;
+        }
+        @media print {
+            body { padding: 0; background: white; }
+            .container { box-shadow: none; padding: 5px; }
+            .btn-row { display: none; }
+            .page-break { page-break-after: always; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="btn-row no-print">
+            <a href="/">← Новый отчёт</a>
+            <button onclick="window.print()">Печать</button>
+        </div>
+        
+        {% if saved_file %}
+        <div class="saved-notice">
+            Отчёт сохранён: <strong>{{ saved_file }}</strong>
+        </div>
+        {% endif %}
+        
+        <div class="header">
+            <h1>Отчёт о суточных параметрах ({{ start_date }} - {{ end_date }})</h1>
+        </div>
+        
+        <div class="meta">
+            <strong>Объект:</strong> {{ address or device_name or ('ID ' ~ device_id) }}<br>
+            {% if device_number %}<strong>Прибор:</strong> {{ device_type or 'ВКТ-7' }} Заводской номер: {{ device_number }}{% endif %}
+            {% if measure_point %}<br><strong>Точка измерения:</strong> {{ measure_point }}{% endif %}
+            {% if counterparty %}<br><strong>Организация:</strong> {{ counterparty }}{% endif %}
+        </div>
+        
+        <div class="checks-section">
+            {% if checks %}
+                {% for check in checks %}
+                <div class="check-item {% if check.status == 'ok' %}ok{% elif check.status == 'error' %}error{% endif %}">
+                    <strong>{{ check.name }}:</strong> {{ check.formula }}
+                    {% if check.value %} = {{ check.value }}{% endif %}
+                    {% if check.description %} - {{ check.description }}{% endif %}
+                </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+        
+        {% if universal_analysis %}
+        <div class="analysis-section">
+            <h3>Рекомендации для сервисного инженера</h3>
+            {{ universal_analysis | safe }}
+        </div>
+        {% endif %}
+        
+        {% if analysis %}
+        <div class="analysis-section">
+            <h3>Анализ AI</h3>
+            {{ analysis | safe }}
+        </div>
+        {% endif %}
+        
+        {% if display_table %}
+        <div class="section-title">Таблица 1. Суточные данные</div>
+        
+        <table class="eldis-table">
+            <thead>
+                <tr>
+                    <th rowspan="2">Дата</th>
+                    <th>t1</th>
+                    <th colspan="2">t2</th>
+                    <th>t3</th>
+                    <th>dt</th>
+                    <th colspan="2">V1</th>
+                    <th>V2</th>
+                    <th>V3</th>
+                    <th colspan="2">M1</th>
+                    <th>M2</th>
+                    <th>M3</th>
+                    <th colspan="2">Mг</th>
+                    <th>P1</th>
+                    <th colspan="2">P2</th>
+                    <th colspan="2">Qo</th>
+                    <th>Qg</th>
+                    <th>ВНР</th>
+                    <th colspan="2">ВОС</th>
+                    <th>НС</th>
+                </tr>
+                <tr>
+                    <th>°C</th>
+                    <th colspan="2">°C</th>
+                    <th>°C</th>
+                    <th>°C</th>
+                    <th colspan="2">м3</th>
+                    <th>м3</th>
+                    <th>м3</th>
+                    <th colspan="2">т</th>
+                    <th>т</th>
+                    <th>т</th>
+                    <th colspan="2">т</th>
+                    <th>кг/см2</th>
+                    <th colspan="2">кг/см2</th>
+                    <th colspan="2">Гкал</th>
+                    <th>Гкал</th>
+                    <th>ч</th>
+                    <th colspan="2">ч</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in display_table %}
+                <tr>
+                    <td class="label">{{ row.get('timestamp', '—')[:10] }}</td>
+                    <td>{{ "%.2f"|format(row.get('t1')) if row.get('t1') is not none else '—' }}</td>
+                    <td colspan="2">{{ "%.2f"|format(row.get('t2')) if row.get('t2') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(row.get('t3')) if row.get('t3') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(row.get('dt')) if row.get('dt') is not none else '—' }}</td>
+                    <td colspan="2">{{ "%.2f"|format(row.get('V1')) if row.get('V1') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(row.get('V2')) if row.get('V2') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(row.get('V3')) if row.get('V3') is not none else '—' }}</td>
+                    <td colspan="2">{{ "%.3f"|format(row.get('M1')) if row.get('M1') is not none else '—' }}</td>
+                    <td>{{ "%.3f"|format(row.get('M2')) if row.get('M2') is not none else '—' }}</td>
+                    <td>{{ "%.3f"|format(row.get('M3')) if row.get('M3') is not none else '—' }}</td>
+                    <td colspan="2">{{ "%.2f"|format(row.get('Mг') or row.get('dM')) if row.get('Mг') is not none or row.get('dM') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(row.get('P1')) if row.get('P1') is not none else '—' }}</td>
+                    <td colspan="2">{{ "%.2f"|format(row.get('P2')) if row.get('P2') is not none else '—' }}</td>
+                    <td colspan="2">{{ "%.3f"|format(row.get('Q')) if row.get('Q') is not none else '—' }}</td>
+                    <td>{{ "%.3f"|format(row.get('Qg')) if row.get('Qg') is not none else '—' }}</td>
+                    <td>{{ "%.1f"|format(row.get('QntHIP')) if row.get('QntHIP') is not none else '0.0' }}</td>
+                    <td colspan="2">{{ "%.1f"|format(row.get('VOCR')) if row.get('VOCR') is not none else '0.0' }}</td>
+                    <td>{{ row.get('ns', '—') }}</td>
+                </tr>
+                {% endfor %}
+                
+                {% if averages %}
+                <tr class="avg-row">
+                    <td class="label">Средние:</td>
+                    <td>{{ "%.2f"|format(averages.get('t1')) if averages.get('t1') is not none else '—' }}</td>
+                    <td colspan="2">{{ "%.2f"|format(averages.get('t2')) if averages.get('t2') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(averages.get('t3')) if averages.get('t3') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(averages.get('dt')) if averages.get('dt') is not none else '—' }}</td>
+                    <td colspan="2" class="na">—</td>
+                    <td class="na">—</td>
+                    <td class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td class="na">—</td>
+                    <td class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td class="na">—</td>
+                    <td class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td></td>
+                </tr>
+                {% endif %}
+                
+                {% if totals %}
+                <tr class="tot-row">
+                    <td class="label">Итого:</td>
+                    <td class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td class="na">—</td>
+                    <td class="na">—</td>
+                    <td colspan="2">{{ "%.2f"|format(totals.get('V1')) if totals.get('V1') is not none and totals.get('V1') != 0 else '—' }}</td>
+                    <td>{{ "%.2f"|format(totals.get('V2')) if totals.get('V2') is not none and totals.get('V2') != 0 else '—' }}</td>
+                    <td>{{ "%.2f"|format(totals.get('V3')) if totals.get('V3') is not none and totals.get('V3') != 0 else '—' }}</td>
+                    <td colspan="2">{{ "%.3f"|format(totals.get('M1')) if totals.get('M1') is not none and totals.get('M1') != 0 else '—' }}</td>
+                    <td>{{ "%.3f"|format(totals.get('M2')) if totals.get('M2') is not none and totals.get('M2') != 0 else '—' }}</td>
+                    <td>{{ "%.3f"|format(totals.get('M3')) if totals.get('M3') is not none and totals.get('M3') != 0 else '—' }}</td>
+                    <td colspan="2">{{ "%.2f"|format(totals.get('Mг') or totals.get('dM')) if totals.get('Mг') is not none or totals.get('dM') is not none else '—' }}</td>
+                    <td class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td colspan="2">{{ "%.3f"|format(totals.get('Q')) if totals.get('Q') is not none and totals.get('Q') != 0 else '—' }}</td>
+                    <td>{{ "%.3f"|format(totals.get('Qg')) if totals.get('Qg') is not none and totals.get('Qg') != 0 else '—' }}</td>
+                    <td>{{ "%.1f"|format(totals.get('QntHIP')) if totals.get('QntHIP') is not none else '0.0' }}</td>
+                    <td colspan="2">{{ "%.1f"|format(totals.get('VOCR')) if totals.get('VOCR') is not none else '0.0' }}</td>
+                    <td></td>
+                </tr>
+                {% endif %}
+            </tbody>
+        </table>
+        
+        <p style="font-size: 7pt; margin-top: 5px;">
+            Всего записей: {{ display_table | length }}
+        </p>
+        {% endif %}
+        
+        <div class="signatures">
+            <div class="signature-box">
+                <div>Представитель абонента</div>
+                <div class="signature-line">____________________________</div>
+            </div>
+            <div class="signature-box">
+                <div>Представитель энергоснабжающей организации</div>
+                <div class="signature-line">____________________________</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
