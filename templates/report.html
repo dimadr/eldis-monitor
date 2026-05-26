@@ -13,7 +13,7 @@
             padding: 20px;
         }
         .container {
-            max-width: 1100px;
+            max-width: 1300px;
             margin: 0 auto;
             background: white;
             padding: 15px;
@@ -41,16 +41,16 @@
         table.eldis-table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 7pt;
+            font-size: 6.5pt;
             margin-top: 10px;
         }
         table.eldis-table th {
             background: #D3D3D3;
             border: 1px solid #000;
-            padding: 2px 4px;
+            padding: 2px 3px;
             text-align: center;
             font-weight: normal;
-            font-size: 7pt;
+            font-size: 6.5pt;
         }
         table.eldis-table th.rotate {
             writing-mode: vertical-rl;
@@ -62,9 +62,9 @@
         table.eldis-table td {
             border: 1px solid #000;
             border-top: 1px solid #000;
-            padding: 2px 4px;
+            padding: 2px 3px;
             text-align: center;
-            font-size: 7pt;
+            font-size: 6.5pt;
             white-space: nowrap;
         }
         table.eldis-table td.label {
@@ -242,16 +242,22 @@
                     <th colspan="2">V1</th>
                     <th>V2</th>
                     <th>V3</th>
+                    <th>dV</th>
                     <th colspan="2">M1</th>
                     <th>M2</th>
                     <th>M3</th>
                     <th colspan="2">Mг</th>
+                    <th>Mg</th>
+                    <th>%</th>
                     <th>P1</th>
                     <th colspan="2">P2</th>
-                    <th colspan="2">Qo</th>
+                    <th colspan="2">Q</th>
                     <th>Qg</th>
+                    <th>ta</th>
                     <th>ВНР</th>
                     <th colspan="2">ВОС</th>
+                    <th>Primes</th>
+                    <th>Траб</th>
                     <th>НС</th>
                 </tr>
                 <tr>
@@ -262,16 +268,22 @@
                     <th colspan="2">м3</th>
                     <th>м3</th>
                     <th>м3</th>
+                    <th>м3</th>
                     <th colspan="2">т</th>
                     <th>т</th>
                     <th>т</th>
                     <th colspan="2">т</th>
+                    <th>т</th>
+                    <th>%</th>
                     <th>кг/см2</th>
                     <th colspan="2">кг/см2</th>
                     <th colspan="2">Гкал</th>
                     <th>Гкал</th>
+                    <th>°C</th>
                     <th>ч</th>
                     <th colspan="2">ч</th>
+                    <th>т</th>
+                    <th>ч</th>
                     <th></th>
                 </tr>
             </thead>
@@ -286,16 +298,22 @@
                     <td colspan="2">{{ "%.2f"|format(row.get('V1')) if row.get('V1') is not none else '—' }}</td>
                     <td>{{ "%.2f"|format(row.get('V2')) if row.get('V2') is not none else '—' }}</td>
                     <td>{{ "%.2f"|format(row.get('V3')) if row.get('V3') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(row.get('dV')) if row.get('dV') is not none else '—' }}</td>
                     <td colspan="2">{{ "%.3f"|format(row.get('M1')) if row.get('M1') is not none else '—' }}</td>
                     <td>{{ "%.3f"|format(row.get('M2')) if row.get('M2') is not none else '—' }}</td>
                     <td>{{ "%.3f"|format(row.get('M3')) if row.get('M3') is not none else '—' }}</td>
                     <td colspan="2">{{ "%.2f"|format(row.get('Mг') or row.get('dM')) if row.get('Mг') is not none or row.get('dM') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(row.get('Mg')) if row.get('Mg') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(row.get('pct')) if row.get('pct') is not none else '—' }}</td>
                     <td>{{ "%.2f"|format(row.get('P1')) if row.get('P1') is not none else '—' }}</td>
                     <td colspan="2">{{ "%.2f"|format(row.get('P2')) if row.get('P2') is not none else '—' }}</td>
                     <td colspan="2">{{ "%.3f"|format(row.get('Q')) if row.get('Q') is not none else '—' }}</td>
                     <td>{{ "%.3f"|format(row.get('Qg')) if row.get('Qg') is not none else '—' }}</td>
-                    <td>{{ "%.1f"|format(row.get('QntHIP')) if row.get('QntHIP') is not none else '0.0' }}</td>
+                    <td>{{ "%.1f"|format(row.get('ta')) if row.get('ta') is not none else '—' }}</td>
+                    <td>{{ "%.1f"|format(row.get('QntHIP')) if row.get('QntHIP') is not none else (row.get('hr1') if row.get('hr1') is not none else '0.0') }}</td>
                     <td colspan="2">{{ "%.1f"|format(row.get('VOCR')) if row.get('VOCR') is not none else '0.0' }}</td>
+                    <td>{{ "%.2f"|format(row.get('Primes')) if row.get('Primes') is not none else '—' }}</td>
+                    <td>{{ "%.1f"|format(row.get('Tраб') or row.get('hr2')) if row.get('Tраб') is not none or row.get('hr2') is not none else '—' }}</td>
                     <td>{{ row.get('ns', '—') }}</td>
                 </tr>
                 {% endfor %}
@@ -310,16 +328,22 @@
                     <td colspan="2" class="na">—</td>
                     <td class="na">—</td>
                     <td class="na">—</td>
-                    <td colspan="2" class="na">—</td>
                     <td class="na">—</td>
-                    <td class="na">—</td>
-                    <td colspan="2" class="na">—</td>
-                    <td class="na">—</td>
-                    <td colspan="2" class="na">—</td>
                     <td colspan="2" class="na">—</td>
                     <td class="na">—</td>
                     <td class="na">—</td>
                     <td colspan="2" class="na">—</td>
+                    <td class="na">—</td>
+                    <td class="na">—</td>
+                    <td class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td class="na">—</td>
+                    <td class="na">—</td>
+                    <td class="na">—</td>
+                    <td colspan="2" class="na">—</td>
+                    <td class="na">—</td>
+                    <td class="na">—</td>
                     <td></td>
                 </tr>
                 {% endif %}
@@ -334,16 +358,22 @@
                     <td colspan="2">{{ "%.2f"|format(totals.get('V1')) if totals.get('V1') is not none and totals.get('V1') != 0 else '—' }}</td>
                     <td>{{ "%.2f"|format(totals.get('V2')) if totals.get('V2') is not none and totals.get('V2') != 0 else '—' }}</td>
                     <td>{{ "%.2f"|format(totals.get('V3')) if totals.get('V3') is not none and totals.get('V3') != 0 else '—' }}</td>
+                    <td>{{ "%.2f"|format(totals.get('dV')) if totals.get('dV') is not none and totals.get('dV') != 0 else '—' }}</td>
                     <td colspan="2">{{ "%.3f"|format(totals.get('M1')) if totals.get('M1') is not none and totals.get('M1') != 0 else '—' }}</td>
                     <td>{{ "%.3f"|format(totals.get('M2')) if totals.get('M2') is not none and totals.get('M2') != 0 else '—' }}</td>
                     <td>{{ "%.3f"|format(totals.get('M3')) if totals.get('M3') is not none and totals.get('M3') != 0 else '—' }}</td>
                     <td colspan="2">{{ "%.2f"|format(totals.get('Mг') or totals.get('dM')) if totals.get('Mг') is not none or totals.get('dM') is not none else '—' }}</td>
+                    <td>{{ "%.2f"|format(totals.get('Mg')) if totals.get('Mg') is not none else '—' }}</td>
+                    <td class="na">—</td>
                     <td class="na">—</td>
                     <td colspan="2" class="na">—</td>
                     <td colspan="2">{{ "%.3f"|format(totals.get('Q')) if totals.get('Q') is not none and totals.get('Q') != 0 else '—' }}</td>
                     <td>{{ "%.3f"|format(totals.get('Qg')) if totals.get('Qg') is not none and totals.get('Qg') != 0 else '—' }}</td>
+                    <td class="na">—</td>
                     <td>{{ "%.1f"|format(totals.get('QntHIP')) if totals.get('QntHIP') is not none else '0.0' }}</td>
                     <td colspan="2">{{ "%.1f"|format(totals.get('VOCR')) if totals.get('VOCR') is not none else '0.0' }}</td>
+                    <td>{{ "%.2f"|format(totals.get('Primes')) if totals.get('Primes') is not none else '—' }}</td>
+                    <td>{{ "%.1f"|format(totals.get('Tраб')) if totals.get('Tраб') is not none else '—' }}</td>
                     <td></td>
                 </tr>
                 {% endif %}

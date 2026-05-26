@@ -308,8 +308,25 @@ def parse_record(record):
         if key in record and record[key] is not None:
             row[key] = record[key]
     
+    # Поля прибора МКТС (теплосчётчик с иной схемой данных)
+    for key in ['Mg', 'Primes', 'ta', 'Tраб', 'NS', 'QntP']:
+        if key in record and record[key] is not None:
+            row[key] = record[key]
+    # Поле % (процент небаланса, API может отдавать как ключ)
+    if '%' in record and record['%'] is not None:
+        row['pct'] = record['%']
+    # Кириллические ключи (Вр.раб1, Вр.раб2, Вр.раб3)
+    if 'Вр.раб1' in record and record['Вр.раб1'] is not None:
+        row['hr1'] = record['Вр.раб1']
+    if 'Вр.раб2' in record and record['Вр.раб2'] is not None:
+        row['hr2'] = record['Вр.раб2']
+    if 'Вр.раб3' in record and record['Вр.раб3'] is not None:
+        row['hr3'] = record['Вр.раб3']
+    
     if 'ns' in record:
         row['ns'] = record['ns']
+    elif 'NS' in record:
+        row['ns'] = record['NS']
     if 'QntHIP' in record:
         row['QntHIP'] = record['QntHIP']
     if 'QntP' in record:
@@ -399,8 +416,8 @@ def analyze_with_ai(data, model_id, ns_dictionary):
         print(f"AI Error: {e}")
         return result
 
-def get_all_inputs_for_device(eldis_id):
-    """По ID Элдиса найти все вводы того же прибора в mapping.db"""
+def get_all_inputs_for_device(any_id):
+    """По любому ID (Eldis, objectID, deviceID) найти все вводы прибора в mapping.db"""
     mapping_file = os.path.join(BASE_DIR, '..', 'mapping.db')
     if not os.path.exists(mapping_file):
         return []
@@ -408,13 +425,38 @@ def get_all_inputs_for_device(eldis_id):
         conn = sqlite3.connect(mapping_file)
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
-        cursor.execute('SELECT id, deviceID, resourceName, measurePointName FROM mappings WHERE id = ?', (eldis_id,))
-        current = cursor.fetchone()
-        if not current:
+        
+        # Поиск: сначала по id (Eldis ID), потом по objectID, потом по deviceID
+        found_object_id = None
+        found_device_id = None
+        matched_by = None
+        
+        for column in ['id', 'objectID', 'deviceID']:
+            cursor.execute(f'SELECT objectID, deviceID FROM mappings WHERE {column} = ? LIMIT 1', (any_id,))
+            row = cursor.fetchone()
+            if row:
+                found_object_id = row['objectID']
+                found_device_id = row['deviceID']
+                matched_by = column
+                break
+        
+        if not found_device_id:
             conn.close()
             return []
-        device_id = current['deviceID']
-        cursor.execute('SELECT id, resourceName, measurePointName FROM mappings WHERE deviceID = ?', (device_id,))
+        
+        # Если нашли по objectID — вернуть ВСЕ вводы всех приборов объекта
+        if matched_by == 'objectID':
+            cursor.execute('''
+                SELECT id, resourceName, measurePointName, deviceID 
+                FROM mappings WHERE objectID = ?
+            ''', (found_object_id,))
+        else:
+            # По id или deviceID — вернуть вводы одного прибора
+            cursor.execute('''
+                SELECT id, resourceName, measurePointName, deviceID 
+                FROM mappings WHERE deviceID = ?
+            ''', (found_device_id,))
+        
         rows = [dict(r) for r in cursor.fetchall()]
         conn.close()
         return rows
@@ -448,21 +490,25 @@ def generate():
         
         # Найти все вводы прибора и опросить каждый
         all_inputs = get_all_inputs_for_device(device_id)
+        queried_ids = set()
         all_readings = []
-        readings_ids = [device_id]
         
+        # Всегда опрашиваем исходный ID
+        r = get_readings(device_id, token, start_date=start_date, end_date=end_date)
+        if r:
+            all_readings.append(r)
+        queried_ids.add(device_id)
+        
+        # Опрашиваем остальные вводы
         if all_inputs:
             for inp in all_inputs:
                 inp_id = inp['id']
-                if inp_id not in readings_ids:
-                    readings_ids.append(inp_id)
+                if inp_id not in queried_ids:
+                    queried_ids.add(inp_id)
                     r = get_readings(inp_id, token, start_date=start_date, end_date=end_date)
                     if r:
                         all_readings.append(r)
         
-        if not all_readings:
-            # Fallback: опросить только переданный ID
-            all_readings = [get_readings(device_id, token, start_date=start_date, end_date=end_date)]
         
         # Объединить все показания
         combined = {'response': {'data': {'normalized': []}}}
@@ -656,20 +702,24 @@ def generate():
                     checks_for_analyzer['ns_events'] = int(m.group(1))
         
         # Запустить анализ
-        if checks_for_analyzer:
-            universal_analyzer = create_universal_analyzer()
-            analysis_result = universal_analyzer.analyze(
-                device_code=device_code,
-                device_name=device_name,
-                checks=checks_for_analyzer
-            )
-            data['universal_analysis'] = universal_analyzer.format_html(analysis_result)
+        if not readings_table:
+            data['universal_analysis'] = '<p>За указанный период данных нет.</p>'
+            data['analysis'] = ''
         else:
-            data['universal_analysis'] = '<p>Все показания в норме. Отклонений не выявлено.</p>'
-        
-        if model_id:
-            analysis = analyze_with_ai(data, model_id, ns_dictionary)
-            data['analysis'] = analysis
+            if checks_for_analyzer:
+                universal_analyzer = create_universal_analyzer()
+                analysis_result = universal_analyzer.analyze(
+                    device_code=device_code,
+                    device_name=device_name,
+                    checks=checks_for_analyzer
+                )
+                data['universal_analysis'] = universal_analyzer.format_html(analysis_result)
+            else:
+                data['universal_analysis'] = '<p>Все показания в норме. Отклонений не выявлено.</p>'
+            
+            if model_id:
+                analysis = analyze_with_ai(data, model_id, ns_dictionary)
+                data['analysis'] = analysis
         
         filename = f"{device_id}_{datetime.now().strftime('%d.%m.%Y')}.html"
         filename = sanitize_filename(filename)
