@@ -1,28 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "provider": {
-    "Neuro": {
-      "npm": "@ai-sdk/openai-compatible",
-      "name": "NeuroAPI",
-      "options": {
-        "baseURL": "https://neuroapi.host/v1",
-        "apiKey": ""
-      },
-      "models": {
-        "glm-4.7": {
-          "name": "glm-4.7"
-        },
-        "claude-sonnet-4-6": {
-          "name": "claude-sonnet-4-6"
-        },
-        "claude-haiku-4.5": {
-          "name": "claude-haiku-4.5"
-        },
-        "claude-4-5-opus": {
-          "name": "claude-4-5-opus"
-        }
-      }
-    },
     "RouterAI": {
       "npm": "@ai-sdk/openai-compatible",
       "name": "RouterAI",
