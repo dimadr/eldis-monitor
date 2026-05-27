@@ -13,18 +13,22 @@ CATALOG_FILE = OUTPUT_DIR / "ns_catalog.json"
 
 def get_api_data():
     """Получение данных через API"""
+    import os
+    api_key = os.environ.get('ELDIS_API_KEY', '')
+    login = os.environ.get('ELDIS_LOGIN', '')
+    password = os.environ.get('ELDIS_PASSWORD', '')
+
     session = requests.Session()
     headers = {
-        'key': '09245d62b69b4935be622737b7def154',
+        'key': api_key,
         'Content-Type': 'application/x-www-form-urlencoded'
     }
-    
-    # Логин
-    login_data = {'login': 'ddr@it37.ru', 'password': '2KW!4^s$SMR4269Q&o^6'}
+
+    login_data = {'login': login, 'password': password}
     resp = session.post('https://api.eldis24.ru/api/v1/users/login', data=login_data, headers=headers)
     token = session.cookies.get('access_token')
     headers['Cookie'] = f'access_token={token}'
-    
+
     return session, headers
 
 def get_device_models(session, headers):
